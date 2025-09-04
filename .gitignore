@@ -1,0 +1,14 @@
+# Ignore gem5 build files
+src/gem5/build/
+
+# Ignore CXL-DMSim and Ramulator build files (if they create them)
+src/CXL-DMSim/build/
+src/ramulator2/build/
+
+# Ignore Python virtual environments
+.venv/
+__pycache__/
+
+# Ignore simulation output and results
+m5out/
+results/
