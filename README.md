@@ -2,6 +2,7 @@
 A reproducible simulation framework for Compute Express Link (CXL) performance exploration. Built on gem5 and integrated with cycle-accurate DRAM simulators (Ramulator / DRAMsim3) to model CXL.io and CXL.mem transactions.
 
 CXL-Enabled-Disaggregated-Memory-Simulator/
+
 ├── docs/                 # design docs, diagrams, validation notes
 ├── gem5/                 # patched gem5 source for CXL.io + CXL.mem hooks
 ├── dramsim3/             # integrated DRAMsim3 (or Ramulator) backend
